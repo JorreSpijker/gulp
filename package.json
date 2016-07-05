@@ -24,5 +24,9 @@
     "test": "gulp"
   },
   "author": "Jorre Spijker",
-  "license": "ISC"
+  "license": "ISC",
+  "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/JorreSpijker/gulp.git"
+  }
 }
