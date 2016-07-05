@@ -1,6 +1,6 @@
 {
-  "name": "gulp-start",
-  "version": "1.0.0",
+  "name": "gulp",
+  "version": "1.2.1",
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
