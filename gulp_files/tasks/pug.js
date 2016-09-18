@@ -1,10 +1,10 @@
 var gulp = require('gulp');
-var jade = require('gulp-jade');
+var pug = require('gulp-pug');
 var browserSync = require('browser-sync');
 
-gulp.task('jade', function() {
-    return gulp.src('src/*.jade')
-        .pipe(jade({
+gulp.task('pug', function() {
+    return gulp.src('src/*.pug')
+        .pipe(pug({
             pretty: true
         }))
         .pipe(gulp.dest('pub'))
