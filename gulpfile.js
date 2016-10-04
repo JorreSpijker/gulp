@@ -1,4 +1,4 @@
-git var gulp            = require('gulp');
+var gulp            = require('gulp');
 var watch          = require('gulp-watch')
 var browserSync     = require('browser-sync').create();
 var runSequence     = require('run-sequence');
