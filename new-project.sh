@@ -1,11 +1,10 @@
 #!/bin/bash
-LOC=~/Documents/Work/Web/Gulp
 clear
+LOC=~/Documents/Work/Web/Gulp
 echo "Create a new project."
-echo "Projectname:"
+echo "Projectname (without capitals):"
 read -r projectname
 mkdir $LOC/www-$projectname
-cd $LOC/www-$projectname
 sleep 0.2s
 clear
 echo ""
