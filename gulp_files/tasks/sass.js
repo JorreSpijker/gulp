@@ -4,8 +4,8 @@ var auto = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync').create();
 
-gulp.task('sass', function() {
-    return gulp.src('src/sass/*.scss')
+gulp.task('scss', function() {
+    return gulp.src('src/scss/*.scss')
         .pipe(sass())
         .pipe(sourcemaps.init())
         .pipe(auto())

@@ -4,7 +4,7 @@ var browserSync = require('browser-sync').create();
 gulp.task('browserSync', function() {
   var files = [
       'src/*.jade',
-      'src/sass/*.sass',
+      'src/scss/*.scss',
       'src/js/*.js',
       'src/coffee/*.coffee'
   ];

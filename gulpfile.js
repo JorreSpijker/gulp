@@ -6,11 +6,11 @@ var requireDir      = require('require-dir');
 requireDir('./gulp_files/tasks');
 
 gulp.task('default', function() {
-    runSequence(['sass','pug','pub-css','javascript','coffeescript','image'], 'intro');
+    runSequence(['scss','pug','pub-css','javascript','coffeescript','image'], 'intro');
 });
 
-gulp.task('go',['browserSync', 'sass','pub-css', 'pug', 'javascript','coffeescript','image'], function() {
-    gulp.watch('src/sass/*.sass', ['sass']).on("change", browserSync.reload);
+gulp.task('go',['browserSync', 'scss','pub-css', 'pug', 'javascript','coffeescript','image'], function() {
+    gulp.watch('src/scss/*.scss', ['scss']).on("change", browserSync.reload);
     gulp.watch('src/css/*.css', ['pub-css']).on("change", browserSync.reload);
     gulp.watch('src/*.pug', ['pug']).on("change", browserSync.reload);
     gulp.watch('src/js/*.js', ['javascript']).on("change", browserSync.reload);
