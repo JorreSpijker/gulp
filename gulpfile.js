@@ -16,4 +16,4 @@ gulp.task('go',['browserSync', 'scss','pub-css', 'pug', 'javascript','coffeescri
     gulp.watch('src/js/*.js', ['javascript']).on("change", browserSync.reload);
     gulp.watch('src/coffee/*.coffee', ['coffeescript']).on("change", browserSync.reload);
     gulp.watch('src/img/**/*.*', ['image']).on("change", browserSync.reload);
-}); 
+});
