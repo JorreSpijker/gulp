@@ -1,17 +1,18 @@
-# Gulp
-Gulp file to start a new project.
+These are the gulpfiles that you can use for your web projects.
 
-## Installation
+## Automatic installation
+Go to [this](https://github.com/JorreSpijker/gulp-new-project) page.
 
-#### Automatic
-Use the `./new-project.sh` command to start a new project. See the 'run' chapter if you want to run it when you've closed the terminal.
-
-#### Manual
+## Manual installation
 1. Create a folder
-2. Move the content of the `start` folder to the folder you've created.
-3. Open the terminal and move to the folder.
-4. Run `gulp`
+2. Move the content of this repository to the folder you've created.
+3. Open the terminal and `cd` to the folder.
+4. Run `npm install`
+5. Grab a coffee while the packages are installing.
+6. When it is finished, run `gulp`
 
 ## Use
-1. Open the terminal and move to the folder.
+1. Open the terminal and `cd` to the folder.
 2. Run `gulp`
+3. Follow the instructions there.
+
