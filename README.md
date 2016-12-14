@@ -1,12 +1,11 @@
 # Gulp
 Gulp file to start a new project.
 
-## Installation
 
-#### Automatic
-Use the `./new-project.sh` command to start a new project. See the 'run' chapter if you want to run it when you've closed the terminal.
+## Automatic installation
+Go to [this](https://github.com/JorreSpijker/gulp-new-project).
 
-#### Manual
+## Manual installation
 1. Create a folder
 2. Move the content of the `start` folder to the folder you've created.
 3. Open the terminal and move to the folder.
