@@ -1,7 +1,7 @@
 These are the gulpfiles that you can use for your web projects.
 
 ## Automatic installation
-Go to [this](https://github.com/JorreSpijker/gulp-new-project).
+Go to [this](https://github.com/JorreSpijker/gulp-new-project) page.
 
 ## Manual installation
 1. Create a folder
