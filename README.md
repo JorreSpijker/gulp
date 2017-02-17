@@ -16,3 +16,12 @@ Go to [this](https://github.com/JorreSpijker/gulp-new-project) page.
 2. Run `gulp`
 3. Follow the instructions there.
 
+## Changelog
+__1.3.0__
+* Added gulp-plumber
+
+  When there is an error, the other tasks will continue.
+
+* Added gulp-clean
+
+  With this `clean-pub` and `clean-dist` you could clear the pub and/or dist folder.
