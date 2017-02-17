@@ -25,3 +25,5 @@ __1.3.0__
 * Added gulp-clean
 
   With this `clean-pub` and `clean-dist` you could clear the pub and/or dist folder.
+
+* Removed unneeded files
