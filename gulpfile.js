@@ -1,5 +1,5 @@
 var gulp            = require('gulp');
-var watch          = require('gulp-watch')
+var watch           = require('gulp-watch')
 var browserSync     = require('browser-sync').create();
 var runSequence     = require('run-sequence');
 var requireDir      = require('require-dir');

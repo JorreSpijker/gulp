@@ -1,0 +1,34 @@
+//
+// Helpers
+//
+
+// Text: styles
+.text-left{ text-align: left; }
+.text-center{ text-align: center; }
+.text-right{ text-align: right; }
+
+.text-bold{ font-weight: 800; }
+.text-italic{ font-style: italic; }
+.text-underline{ text-decoration: underline; }
+.text-sub{ font-size: 90%; }
+.text-caps{ text-transform: uppercase;; }
+
+// Text: colors
+.text-primary{ color: $primary-color; }
+.text-secondary{ color: $secondary-color; }
+
+.text-red{ color: $oc-red-7; }
+.text-green{ color: $oc-green-8;}
+
+// Floats
+.left{ float: left; }
+.right{ float: right; }
+.center{ @include centerer(false, true); }
+
+// Background colors
+.bg-primary{ background-color: $primary-color; }
+.bg-secondary{ background-color: $secondary-color; }
+
+// Elements
+.circle{ border-radius: 50%; }
+.muted { opacity: 0.6; }

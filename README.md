@@ -17,6 +17,13 @@ Go to [this](https://github.com/JorreSpijker/gulp-new-project) page.
 3. Follow the instructions there.
 
 ## Changelog
+__1.3.1__
+* Added SCSS mixins
+
+* Added SCSS helpers
+
+* Added OpenColors library (https://github.com/yeun/open-color)
+
 __1.3.0__
 * Added gulp-plumber
 

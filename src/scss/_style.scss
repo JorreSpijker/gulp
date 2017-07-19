@@ -1,4 +1,13 @@
+//
+// Stylesheet
+//
+
+// Global
 body{
-    background-color: tomato;
-    color: white;
+  background-color: $secondary-color;
+  color: $primary-color;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
 }
+
+// Custom
