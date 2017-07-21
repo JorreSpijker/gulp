@@ -1,8 +1,9 @@
 var gulp = require('gulp');
 var plumber = require('gulp-plumber');
+var CONFIG = require('config-yml');
 
 gulp.task('dist-html', function() {
-    return gulp.src("pub/*.html")
+    return gulp.src(CONFIG.pub + "/*.html")
       .pipe(plumber())
-      .pipe(gulp.dest('dist'));
+      .pipe(gulp.dest(CONFIG.dist));
 })

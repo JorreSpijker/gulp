@@ -1,3 +1,6 @@
+# ! CURRENTLY IN BETA.
+_Foundation JavaScripts are not working yet. Please don't use it yet_
+
 These are the gulpfiles that you can use for your web projects.
 
 ## Automatic installation
@@ -17,6 +20,27 @@ Go to [this](https://github.com/JorreSpijker/gulp-new-project) page.
 3. Follow the instructions there.
 
 ## Changelog
+__2.0.0__
+* Removed Flexbox grid
+
+  This version uses Foundation 6 grid.
+
+* Removed responsive.css
+
+  This version uses Foundation 6 breakpoint mixins.
+
+* Added Foundation 6
+
+  Included framework to make it easier for using a grid.
+
+* Added MotionUI
+
+  Needed for Foundation 6
+
+* Added config.yml
+
+  Here are all the paths used in the tasks.
+
 __1.3.1__
 * Added SCSS mixins
 
