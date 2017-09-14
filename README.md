@@ -20,6 +20,10 @@ Go to [this](https://github.com/JorreSpijker/gulp-new-project) page.
 3. Follow the instructions there.
 
 ## Changelog
+
+__2.1.1__
+* Minor fixes
+
 __2.0.0__
 * Removed Flexbox grid
 
@@ -40,6 +44,14 @@ __2.0.0__
 * Added config.yml
 
   Here are all the paths used in the tasks.
+
+* Added Panini
+
+  This way we can reuse some html code.
+
+* Removed pug
+
+  This conflicted with the use of Panini. With the use of Emmet it's as easy to write normal html.
 
 __1.3.1__
 * Added SCSS mixins

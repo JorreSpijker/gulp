@@ -1,7 +1,15 @@
+# ..
+# GENERAL
+# ..
+
 src: src
 pub: pub
 dist: dist
 bower: ./bower_components
+
+# ..
+# SASS
+# ..
 
 scss:
   src: ${src}/scss
@@ -10,14 +18,35 @@ scss:
     foundation: ${bower}/foundation-sites/scss
     motionui: ${bower}/motion-ui/src
 
+# ..
+# CSS
+# ..
+
 css:
   src: ${src}/css
   pub: ${pub}/css
   dist: ${dist}/css
 
+# ..
+# PUG
+# ..
+
 pug:
   src: ${src}
   pub: ${pub}
+
+# ..
+# HTML
+# ..
+
+html:
+  src: ${src}/pages/**
+  pub: ${pub}
+  layouts: ${src}/layouts/**
+
+# ..
+# JS
+# ..
 
 js:
   src: ${src}/js
@@ -26,37 +55,56 @@ js:
   vendor:
     what_input: ${bower}/what-input/dist/what-input.js
     foundation:
-      - ${bower}/jquery/dist/jquery.js
+      # - ${bower}/jquery/dist/jquery.js
       # Core
-      - ${bower}/foundation-sites/js/foundation.core.js
-      - ${bower}/foundation-sites/js/foundation.util.*.js
+      # - ${bower}/foundation-sites/dist/js/foundation.min.js
+      # - ${bower}/foundation-sites/js/foundation.util.*.js
       # Plugins
-      - ${bower}/foundation-sites/js/foundation.abide.js
-      - ${bower}/foundation-sites/js/foundation.accordion.js
-      - ${bower}/foundation-sites/js/foundation.accordionMenu.js
-      - ${bower}/foundation-sites/js/foundation.drilldown.js
-      - ${bower}/foundation-sites/js/foundation.dropdown.js
-      - ${bower}/foundation-sites/js/foundation.dropdownMenu.js
-      - ${bower}/foundation-sites/js/foundation.equalizer.js
-      - ${bower}/foundation-sites/js/foundation.interchange.js
-      - ${bower}/foundation-sites/js/foundation.magellan.js
-      - ${bower}/foundation-sites/js/foundation.offcanvas.js
-      - ${bower}/foundation-sites/js/foundation.orbit.js
-      - ${bower}/foundation-sites/js/foundation.responsiveMenu.js
-      - ${bower}/foundation-sites/js/foundation.responsiveToggle.js
-      - ${bower}/foundation-sites/js/foundation.reveal.js
-      - ${bower}/foundation-sites/js/foundation.slider.js
-      - ${bower}/foundation-sites/js/foundation.sticky.js
-      - ${bower}/foundation-sites/js/foundation.tabs.js
-      - ${bower}/foundation-sites/js/foundation.toggler.js
-      - ${bower}/foundation-sites/js/foundation.tooltip.js
-      - ${bower}/foundation-sites/js/foundation.zf.responsiveAccordionTabs.js
+      # - ${bower}/foundation-sites/js/foundation.abide.js
+      # - ${bower}/foundation-sites/js/foundation.accordion.js
+      # - ${bower}/foundation-sites/js/foundation.accordionMenu.js
+      # - ${bower}/foundation-sites/js/foundation.drilldown.js
+      # - ${bower}/foundation-sites/js/foundation.dropdown.js
+      # - ${bower}/foundation-sites/js/foundation.dropdownMenu.js
+      # - ${bower}/foundation-sites/js/foundation.equalizer.js
+      # - ${bower}/foundation-sites/js/foundation.interchange.js
+      # - ${bower}/foundation-sites/js/foundation.magellan.js
+      # - ${bower}/foundation-sites/js/foundation.offcanvas.js
+      # - ${bower}/foundation-sites/js/foundation.orbit.js
+      # - ${bower}/foundation-sites/js/foundation.responsiveMenu.js
+      # - ${bower}/foundation-sites/js/foundation.responsiveToggle.js
+      # - ${bower}/foundation-sites/js/foundation.reveal.js
+      # - ${bower}/foundation-sites/js/foundation.slider.js
+      # - ${bower}/foundation-sites/js/foundation.sticky.js
+      # - ${bower}/foundation-sites/js/foundation.tabs.js
+      # - ${bower}/foundation-sites/js/foundation.toggler.js
+      # - ${bower}/foundation-sites/js/foundation.tooltip.js
+      # - ${bower}/foundation-sites/js/foundation.zf.responsiveAccordionTabs.js
+
+# ..
+# COFFEE
+# ..
 
 coffee:
   src: ${src}/coffee
   pub: ${pub}/js
 
+# ..
+# IMG
+# ..
+
 img:
   src: ${src}/img
   pub: ${pub}/img
   dist: ${dist}/img
+
+# ..
+# PANINI
+# ..
+
+panini:
+  pages: ${src}/pages/
+  layouts: ${src}/layouts/
+  partials: ${src}/partials/
+  helpers: ${src}/helpers/
+  data: ${src}/data/

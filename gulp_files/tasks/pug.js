@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var pug = require('gulp-pug');
 var browserSync = require('browser-sync');
 var plumber = require('gulp-plumber');
+var panini = require('panini');
 var CONFIG = require('config-yml');
 
 gulp.task('pug', function() {
